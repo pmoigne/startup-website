@@ -1,0 +1,176 @@
+
+html {
+    scroll-behavior: smooth;
+  height: 100%;
+  width: 100%;
+}
+
+/*Style*/
+
+body{margin:0px;
+    background-color:white;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+h1{
+    font-size:80px;
+    text-align:center;
+    font-family: 'Oswald', sans-serif;
+    padding: 0px;
+    color:white;
+}
+
+h2{
+    text-align:center;
+    color:#bb0b0b;
+    font-size:40px;
+    width: 100%;
+}
+
+h3{
+    font-size:28px;
+    color:#bb0b0b;
+    font-style: oblique;
+}
+
+h4{font-size:30px;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    color:black; 
+    margin-bottom: 60px;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+    background-color:white;
+    font-size: 20px;
+    width: 180px;
+    height: 20px;
+    text-align: center;
+    margin:auto;
+    padding: 15px;
+    border-radius:10px;
+}
+
+p{
+    color:black;
+    font-size:18px;
+    text-align:justify;
+    text-align:center;
+    margin-top: -15px;
+}
+/*Header*/
+
+#marque{font-family:'Orbitron', sans-serif;
+         color:#bb0b0b;
+}
+.nav-link:hover {
+  color:#bb0b0b;
+}
+.navbar ul{
+    list-style:none;
+    display: flex;
+    justify-content: space-around;
+    color:rgb(140,92,80);
+    margin-top:20px;
+    width: 100%;
+}
+/*Bannère*/
+
+.banner{
+   text-align: center;
+    padding:150px 60px 150px 60px;
+    background-image: url(images/ordinateur.png);
+    background-position: center;
+    background-size: cover;
+    height: 40vh;
+}
+
+.cta-anime{ text-decoration: none;
+    color:white;
+    background-color:#bb0b0b;
+    font-size: 1,7em;
+    width: 180px;
+    height: 20px;
+    text-align: center;
+    margin:auto;
+    padding: 15px;
+    border-radius:10px;
+transition: all 0.4s ease 0s
+text-transform: uppercase}
+
+.cta-anime:hover {
+background: red;
+letter-spacing: 1px;
+-webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+-moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+transition: all 0.4s ease 0s;
+}
+
+
+/*Services*/
+
+
+.card-container{
+    display: flex;
+    padding:10px;
+    width: 100%;   
+}
+
+.card{
+    width:400px;
+    background-color:#e6e6e5;
+    text-align: center;
+    height:600px;
+    margin-right:50px;
+    margin-left:50px;
+    margin-top:10px;
+    border-radius: 40px;
+}
+
+.cercle{
+    display:block;
+    width:240px;
+    height:240px;
+    margin:55px auto;
+    border-radius:50%;
+}
+
+/*statistiques*/
+
+.figures{
+    background-image: url(images/chiffres.png);
+    padding:50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/*clients*/
+
+.références {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+}
+
+.bubble{
+    display: flex;
+    padding:20px;
+justify-content: space-around;
+}
+
+.bubble-text{
+    background:#bb0b0b;  
+    padding:7px 15px; 
+    border-radius:80px; 
+    width:350px;
+    font-family: 'Lobster', cursive;
+    font-size:10px;
+}
+
+
+
